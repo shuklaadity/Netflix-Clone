@@ -1,0 +1,279 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.displayflex{
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(b.jpg);
+    background-size: cover;
+   
+    border-bottom: 10px solid gray;
+}
+.con-1{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.20);
+}
+
+/* Nav styling */
+
+nav{
+   width: 100%;
+   height: 100px; 
+   justify-content: space-between;
+}
+.navdiv-1{
+    width: 20%;
+    text-align: center;
+
+}
+.navdiv-1 img{
+    width: 150px;
+}
+
+.navdiv-2{
+    width: 30%;
+    text-align: center;
+
+}
+ select{
+    width: 140px;
+    height: 35px;
+    text-align: center;
+    background: transparent;
+    color: white;
+    padding: 4px;
+    border: 0.5px solid gray;
+    border-radius: 6px;
+    margin-right: 13px;
+}
+.navdiv-2 button{
+    width: 90px;
+    height: 35px;
+    text-align: center;
+    color: white;
+    border: 0;
+    outline: 0;
+    background-color: rgb(218, 11, 11);
+    border-radius: 6px;
+
+}
+
+
+/* styling con 2 */
+
+.con-1-1{
+    width: 100%;
+    
+    flex-direction: column;
+    text-align: center;
+    
+    margin-top: 200px;
+}
+.con-1-1 h1{
+    font-size: 50px;
+    word-spacing: 6px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+ .con-1p-2{
+    color: white;
+    font-size: 22px;
+   
+    word-spacing: 3px;
+}
+.con-1p-1{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+
+.con-1-div{
+  width: 60%;
+  margin: auto;
+  margin-top: 15px;
+  margin-left: 340px;
+ 
+
+}
+.con-1-div input{
+    width: 380px;
+    height: 50px;
+    
+    border:0.5px solid gray;
+    
+    background: rgba(0, 0, 0, 0.10);
+    border-radius: 5px;
+    margin-right: 13px;
+    padding-left: 20px;
+    
+}
+.con-1-div input::placeholder{
+    font-size: 20px;
+}
+
+.con-1-div button{
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    outline: 0;
+    border: 0;
+    text-align: center;
+    border-radius: 5px;
+    background:rgb(218, 11, 11) ;
+    color: white;
+}
+
+/* section styling*/
+
+section{
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+    background-color: black;
+}
+.secdiv-1{
+    width: 100%;
+    height:100vh ;
+
+    background-color:black;
+    justify-content: space-around;
+    border-bottom: 10px solid gray;
+}
+.secdiv-1info{
+    width: 60%;
+    height: fit-content;
+    background-color: black;
+    color: white;
+    padding-left:30px ;
+    margin-top: 60px;
+
+
+}
+.secdiv-1info h1{
+    font-size: 55px;
+    word-spacing: 3px;
+}
+.secdiv-1info p{
+    font-size: 20px;
+    word-spacing: 8px;
+}
+
+
+.secdiv-1img{
+    width: 40%;
+    background-color: black;
+   margin-right: 200px;
+}
+
+
+
+/* section 2 styling*/
+
+.ques{
+    height:max-content;
+    border-bottom: 10px solid gray;
+    padding-bottom: 70px;
+}
+.quesh1{
+   font-size: 55px;
+   color: white;
+   margin-top: 60px;
+   margin-bottom: 60px;
+}
+.question{
+    width: 100%;
+    height:70px;
+    margin-top: 20px;
+    color: white;
+    justify-content: space-between;
+    background-color: gray;
+}
+.question p{
+    font-size: 20px;
+    padding-left: 40px;
+    word-spacing: 5px;
+}
+.question h1{
+    font-size: 50px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+
+.bigans{
+    height: 200px;
+}
+.qus-p{
+    color: aliceblue;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.hi{
+    height: 100px;
+}
+.big{
+    height: 200px;
+}
+
+/* Footer styleing */
+
+footer{
+    height: 500px;
+    width: 100%;
+    padding-top: 100px;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+   
+}
+footer a{
+    color: white;
+}
+.foot-div{
+   
+    width: 100%;
+    
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+.footp{
+    font-size: 19px;
+    width: 100%;
+    margin-left: 100px;
+    color: gray;
+}
+.footdivmain{
+    width: 100%;
+    justify-content: space-around;
+   
+}
+
+.footdiv-1{
+    width: 15%;
+    height: 200px;
+    justify-content: space-around;
+   
+}
+.footdiv-1 li{
+    margin-top: 20px;
+    list-style: none;
+}
+footer select{
+     margin-top: 20px;
+    margin-left: -550px;
+}
+
+
+
