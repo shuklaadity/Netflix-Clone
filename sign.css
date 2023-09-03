@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 150vh;
+}
+.formcon{
+    width: 40%;
+    height: 600px;
+    margin: auto;
+    
+    flex-direction: column;
+   background-color: rgba(0, 0, 0, 0.60);
+}
+.formcon h1{
+    color: aliceblue;
+    width: 80%;
+    margin-left: 80px;
+    text-align: start;
+    font-size: 40px;
+    padding-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.formcon form{
+    width: 80%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+
+   
+}
+.formcon form input{
+    width: 80%;
+    height: 50px;
+     margin-top: 20px;
+     margin-left: 40px;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    padding-left: 30px;
+    background-color: rgb(70, 65, 65);
+   
+}
+#submit{
+    background-color: rgb(220, 19, 19);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+   
+}
+
+.formques{
+    
+    width: 70%;
+    height: 80px;
+    margin-top: -90px;
+    padding: 20px;
+    color:gray;
+    font-size: 17px;
+}
+.formques a{
+    
+    font-size: 19px;
+    padding-left: 30px;
+}
