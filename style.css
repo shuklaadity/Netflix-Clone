@@ -1,24 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&family=Caprasimo&family=Merriweather:wght@300&family=Roboto+Condensed:wght@300&family=Roboto+Mono:wght@700&family=Roboto+Slab:wght@900&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
 .displayflex{
     display: flex;
     align-items: center;
 }
 .container{
     width: 100%;
-    height: 100vh;
-    background: url(b.jpg);
+    height: 116vh;
+    background: url(bacnew.jpg);
     background-size: cover;
-   
-    border-bottom: 10px solid gray;
+   border-bottom: 10px solid gray;
 }
 .con-1{
     width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.20);
+    height: 116vh;
+    background-color: rgba(0, 0, 0, 0.715);
 }
 
 /* Nav styling */
@@ -64,6 +66,11 @@ nav{
     border-radius: 6px;
 
 }
+.navdiv-2 button a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
 
 
 /* styling con 2 */
@@ -74,13 +81,14 @@ nav{
     flex-direction: column;
     text-align: center;
     
-    margin-top: 200px;
+    margin-top: 140px;
 }
 .con-1-1 h1{
-    font-size: 50px;
+    width: 90%;
+    font-size: 52px;
     word-spacing: 6px;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Belanosima', sans-serif;
     font-weight: 600;
 }
  .con-1p-2{
@@ -110,7 +118,7 @@ nav{
     
     border:0.5px solid gray;
     
-    background: rgba(0, 0, 0, 0.10);
+    background: rgba(0, 0, 0, 0.70);
     border-radius: 5px;
     margin-right: 13px;
     padding-left: 20px;
@@ -144,9 +152,9 @@ section{
     width: 100%;
     height:100vh ;
 
-    background-color:black;
+    background-color:rgb(0, 0, 0);
     justify-content: space-around;
-    border-bottom: 10px solid gray;
+    border-bottom: 10px solid rgb(48, 47, 47);
 }
 .secdiv-1info{
     width: 60%;
@@ -161,17 +169,33 @@ section{
 .secdiv-1info h1{
     font-size: 55px;
     word-spacing: 3px;
+    font-family: 'Belanosima', sans-serif;
 }
 .secdiv-1info p{
-    font-size: 20px;
-    word-spacing: 8px;
+    font-size: 25px;
+    word-spacing: 9px;
 }
 
 
 .secdiv-1img{
     width: 40%;
-    background-color: black;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
    margin-right: 200px;
+
+}
+.secdiv-1img  .tv{
+    position: relative;
+    top: -400px;
+    
+}
+
+#gif{
+    height: 350px;
+   
+   position: relative;
+    top: 10px;
+ 
 }
 
 
@@ -180,7 +204,7 @@ section{
 
 .ques{
     height:max-content;
-    border-bottom: 10px solid gray;
+    border-bottom: 10px solid rgb(36, 34, 34);
     padding-bottom: 70px;
 }
 .quesh1{
@@ -219,6 +243,7 @@ section{
     background: transparent;
     border: 0;
     outline: 0;
+    cursor: pointer;
 }
 .quessub > p{
     font-size: 26px;
@@ -253,7 +278,7 @@ section{
 /* Footer styleing */
 
 footer{
-    height: 500px;
+    height: 550px;
     width: 100%;
   
     padding-top: 100px;
@@ -308,9 +333,7 @@ footer select{
      margin-top: 20px;
      margin-left: -440px;
 }
-footer select option{
-    
-}
+
 
 
 

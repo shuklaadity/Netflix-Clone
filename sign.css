@@ -5,22 +5,23 @@
 }
 .container{
     width: 100%;
-    height: 150vh;
+    height: 120vh;
 }
 .formcon{
     width: 40%;
-    height: 600px;
+    height: 500px;
     margin: auto;
     
     flex-direction: column;
-   background-color: rgba(0, 0, 0, 0.60);
+   background-color: rgba(0, 0, 0, 0.8);
+   box-shadow: 0 0 1px rgba(10, 9, 9, 0.6);
 }
 .formcon h1{
     color: aliceblue;
     width: 80%;
     margin-left: 80px;
     text-align: start;
-    font-size: 40px;
+    font-size: 35px;
     padding-top: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -59,9 +60,19 @@
     padding: 20px;
     color:gray;
     font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .formques a{
     
-    font-size: 19px;
-    padding-left: 30px;
+    color: blue;
+    font-size: 16px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.formques a:hover{
+    text-decoration: underline;
+}
+#white-a{
+    color: white;
+    font-size: 18px;
 }
